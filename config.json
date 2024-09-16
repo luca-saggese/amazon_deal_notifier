@@ -1,0 +1,60 @@
+{
+    "priority_category": ["Electronics"],
+    "regular_category": [
+        "Arts Crafts and Sewing",
+        "Baby Products",
+        "Beauty",
+        "Collectibles and Fine Art",
+        "Furniture",
+        "Grocery and Gourmet Food",
+        "Health and Personal Care",
+        "Home and Kitchen",
+        "Jewelry",
+        "Kindle Store",
+        "Luggage",
+        "Movies and TV",
+        "Music",
+        "Musical Instruments",
+        "Office Products",
+        "Other",
+        "Patio Lawn and Garden",
+        "Pet Supplies",
+        "Sports and Outdoors",
+        "Toys and Games",
+        "Video Games",
+        "Automotive",
+        "Cell Phones and Accessories",
+        "Industrial and Scientific",
+        "Tools and Home Improvement",
+        "Appliances"
+    ],
+    "price_off": [10, 20, 30],
+    "other_webhook": "https://discord.com/api/webhooks/your-webhook-url",
+    "filters": [
+        {
+            "criteria": {
+                "average_price_min": 10,
+                "average_price_max": 100,
+                "percent_off_min": 10,
+                "percent_off_max": 50,
+                "categories": ["category1", "all"]
+            },
+            "webhooks": [
+                {
+                    "webhook": ["https://discord.com/api/webhooks/your-webhook-url"],
+                    "role": "your-role-id"
+                }
+            ],
+            "isolated": true
+        }
+    ],
+    "embed_data": {
+        "username": "Amazon Deals Bot",
+        "avatar_url": "https://example.com/avatar.png",
+        "author_name": "Amazon Deals",
+        "author_icon_url": "https://example.com/author-icon.png",
+        "footer": "Happy Shopping!",
+        "footer_icon": "https://example.com/footer-icon.png",
+        "color": 16711680
+    }
+}
