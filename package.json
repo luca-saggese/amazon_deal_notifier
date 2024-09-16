@@ -1,11 +1,26 @@
 {
-  "name": "amazon_deal_notifier",
+  "name": "amazon-deal-monitor",
   "version": "1.0.0",
+  "description": "Amazon Deal Monitor fetches deals from a third-party source and posts them to Telegram based on configurable filters and categories.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "amazon",
+    "deal",
+    "monitor",
+    "telegram",
+    "webhook",
+    "scraper"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "lodash": "^4.17.21",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {}
 }
